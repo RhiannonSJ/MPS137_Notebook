@@ -23,16 +23,9 @@ project:
 
 site:
   template: book-theme
+  logo: /content/images/neutrinoOscGraphicSymmetry.png
+  logo_text: MPS137 Neutrino Oscillations
   title: MPS137 Neutrino Oscillations
   nav: 
     - title: Home
       url: /content/Welcome
-#      children:
-#        - title: Neutrinos in the Standard Model
-#          url: content/NeutrinoOscillationIntroduction.html
-#        - title: Introduction to Neutrino Oscillations & Sources
-#          url: content/NeutrinoOscillationExperiments.html
-#        - title: Statistical Methods for Neutrino Oscillation Analysis
-#          url: content/NeutrinoOscillationStats.html
-#        - title: Neutrino Oscillation Parameter Measurements
-#          url: content/NeutrinoOscillationResults.html
