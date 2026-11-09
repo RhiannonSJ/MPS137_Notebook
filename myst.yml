@@ -1,9 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
-page:
-  title: MPS137 Neutrino Oscillations
 project:
-  id: 4ab8826b-82fd-47f7-8ef0-24290a6c97b0
+  #id: 4ab8826b-82fd-47f7-8ef0-24290a6c97b0
   title: MPS137 Neutrino Oscillations
   # description:
   # keywords: []
@@ -27,6 +25,17 @@ project:
 site:
   template: book-theme
   title: MPS137 Neutrino Oscillations
+  nav: 
+    - title: Home
+      url: index.html
+    - title: Neutrinos in the Standard Model
+      url: mystmd-quickstart/NeutrinoOscillationIntroduction.html
+    - title: Introduction to Neutrino Oscillations & Sources
+      url: mystmd-quickstart/NeutrinoOscillationExperiments.html
+    - title: Statistical Methods for Neutrino Oscillation Analysis
+      url: mystmd-quickstart/NeutrinoOscillationStats.html
+    - title: Neutrino Oscillation Parameter Measurements
+      url: mystmd-quickstart/NeutrinoOscillationResults.html
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
