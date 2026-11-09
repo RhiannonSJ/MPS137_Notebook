@@ -13,7 +13,6 @@ project:
     - file: mystmd-quickstart/01-paper.md
     - title: Mystmd Quickstart
       children:
-        - file: mystmd-quickstart/02-notebook.ipynb
         - file: mystmd-quickstart/README.md
     
 site:
@@ -22,4 +21,3 @@ site:
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
-  #   title: Fancy Title
