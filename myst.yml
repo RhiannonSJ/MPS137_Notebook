@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 4ab8826b-82fd-47f7-8ef0-24290a6c97b0
-  # title:
+  title: MPS137 Neutrino Oscillations
   # description:
   # keywords: []
   # authors: []
@@ -24,7 +24,7 @@ project:
     
 site:
   template: book-theme
-  title: Testing Title
+  title: MPS137 Neutrino Oscillations
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
