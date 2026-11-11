@@ -1,6 +1,4 @@
-# Physics of Neutrino Oscillations and Future Frontiers
-
-*Based on MPS 137: Frontiers of Physics – Part 2 (University of Sheffield)*
+# Introduction to Neutrino Oscillations
 
 ## 1. Physics of Neutrino Oscillations
 
@@ -53,7 +51,7 @@ However, **flavour eigenstates are not mass eigenstates**. Neutrinos are produce
 
 ### The PMNS Matrix Connection
 
-The unitary **Pontecorvo-Maki-Nakagawa-Sakata (PMNS)** matrix $U$ rotates between bases \[1,2\]:
+The unitary **Pontecorvo-Maki-Nakagawa-Sakata (PMNS)** matrix $U$ rotates between bases [^1] [^2]:
 
 $$
 \vert{}\nu_\alpha\rangle = \sum_{k=1}^3 U_{\alpha k}^* \vert{}\nu_k\rangle \quad \Longleftrightarrow \quad \vert{}\nu_k\rangle = \sum_{\alpha} U_{\alpha k} \vert{}\nu_\alpha\rangle
@@ -73,22 +71,16 @@ This diagram visually illustrates the geometric relationship between **neutrino 
 
 * **The Reference Frame ($\nu_1, \nu_2, \nu_3$):** 
   Represented by the open-arrow axes. These form an orthonormal coordinate system for the **mass eigenstates** (states of definite energy and propagation in space). Note that $\nu_1$ and $\nu_2$ define the horizontal plane, while $\nu_3$ points vertically.
-
 * **The Rotated Basis ($\nu_e, \nu_\mu, \nu_\tau$):** 
   Represented by the solid-arrow vectors. These represent the **flavour eigenstates** (states produced and detected via the weak interaction). Because flavour states do not align with the mass axes, any single flavour state exists as a spatial projection (superposition) across all three mass states.
 
 The transformation from the mass coordinate system ($\nu_1, \nu_2, \nu_3$) to the flavour coordinate system ($\nu_e, \nu_\mu, \nu_\tau$) is parameterized as a sequence of three spatial rotations through Euler-like angles:
 
 1. **Solar Mixing Angle ($\theta_{12}$):** 
-
    Governs the rotation within the horizontal $(\nu_1 - \nu_2)$ plane, i.e. the mixing between the two lighter mass states ($\nu_1$ and $\nu_2$). It dictates solar neutrino oscillations ($p+p \to {}^2\text{H} + e^+ + \nu_e$).
-
 2. **Atmospheric Mixing Angle ($\theta_{23}$):** 
-
    Governs the totation around the $\nu_1$ direction, tilting the vectors out of the plane toward the vertical $\nu_3$ axis. This constitutes the primary mixing between $\nu_\mu$ and $\nu_\tau$, driving atmospheric neutrino oscillations and long-baseline accelerator beam disappearance ($\nu_\mu \to \nu_\tau$).
-
 3. **Reactor / Cross-Mixing Angle ($\theta_{13}$):** 
-
    Small tilt angle of $\nu_e$ relative to the $\nu_1-\nu_2$ plane (and correspondingly $\nu_3$ relative to the vertical axis) represents the small coupling between the electron flavour state ($\nu_e$) and the third mass eigenstate ($\nu_3$), measured by reactor experiments like Daya Bay and RENO.
 
 Unlike the quark sector (CKM matrix), where mixing angles are very small and the bases almost align, the neutrino sector features **large mixing angles** ($\theta_{12} \approx 33.7^\circ, \theta_{23} \approx 49^\circ$), meaning the flavour vectors are tilted significantly relative to the mass axes. Only $\theta_{13} \approx 8.5^\circ$ is relatively small. Consequently, neutrino flavour oscillations are a substantial, measurable phenomenon across many sources of neutrinos.
@@ -101,7 +93,7 @@ $$
 0.236 < \vert{}U_{\mu 1}^*\vert{} < 0.507, \quad 0.458 < \vert{}U_{\mu 2}^*\vert{} < 0.691, \quad 0.630 < \vert{}U_{\mu 3}^*\vert{} < 0.779
 $$
 
-Thus, there is no single "mass of a muon neutrino."
+Thus, there is no single "mass of a muon neutrino".
 
 ## 2. Quantum Mechanical Propagation and Probability
 
@@ -186,6 +178,7 @@ By the end of the 20th century, neutrino experiments confirmed four fundamental 
 Are neutrinos **Dirac** particles (mass from Higgs coupling) or **Majorana** particles (particles are their own antiparticles)? 
    
 Does the Seesaw Mechanism explain why neutrino masses are so extraordinarily light ($\sim 10^6$ times lighter than electrons)?
+
 ### Neutrino Mass Ordering (Hierarchy)
    
 Is the hierarchy **Normal** ($m_1 < m_2 < m_3$, $\Delta m_{31}^2 > 0$) or **Inverted** ($m_3 < m_1 < m_2$, $\Delta m_{31}^2 < 0$)?
@@ -198,6 +191,9 @@ Is the Dirac phase $\delta_{CP} \neq 0$? Can CP violation in the lepton sector e
 
 Are there additional non-interacting **sterile neutrinos** ($\nu_s$) suggested by short-baseline anomalies (LSND/MiniBooNE)?
 
-[^1] Pontecorvo, B. (1957). "Inverse Beta Processes and Non-conservation of Lepton Charge". *JETP*, 7, 172.
+---
 
-[^2] Maki, Z., Nakagawa, M., & Sakata, S. (1962). "Remarks on the Unified Model of Elementary Particles". *Progress of Theoretical Physics*, 28(5), 870–880.
+## References
+
+[^1]: Pontecorvo, B. (1957). "Inverse Beta Processes and Non-conservation of Lepton Charge". *JETP*, 7, 172.
+[^2]: Maki, Z., Nakagawa, M., & Sakata, S. (1962). "Remarks on the Unified Model of Elementary Particles". *Progress of Theoretical Physics*, 28(5), 870–880.

@@ -109,10 +109,10 @@ Neutrinos cover over 18 orders of magnitude in energy. The neutrino-nucleon cros
 
 ### The Elusive Nature of Neutrinos
 
-Because $\sigma \sim 10^{-44} \text{ cm}^2$ at solar energies:
+Because $\sigma \sim 10^{-44} \text{ cm}^2$ at solar energies, the Mean Free Path is:
 
 $$
-\text{Mean Free Path } \lambda = \frac{1}{n \cdot \sigma} \approx 6 \times 10^{12} \text{ miles } (\sim 1 \text{ light-year of solid lead})
+ \lambda = \frac{1}{n \cdot \sigma} \approx 6 \times 10^{12} \text{ miles } (\sim 1 \text{ light-year of solid lead})
 $$
 
 To stop just half of incoming solar neutrinos requires $\sim 6 \text{ trillion miles}$ ($1 \text{ light-year}$) of lead shielding.
