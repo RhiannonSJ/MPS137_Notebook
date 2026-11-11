@@ -4,10 +4,12 @@ project:
   toc:
     - file: content/Welcome.md
       title: Welcome to MPS137 Neutrino Oscillations
-    - file: content/NeutrinoOscillationIntroduction.md
+    - file: content/NeutrinoIntroduction.md
       title: Neutrinos in the Standard Model 
+    - file: content/NeutrinoOscillationIntroduction.md
+      title: Introduction to Neutrino Oscillations
     - file: content/NeutrinoOscillationExperiments.md
-      title: Introduction to Neutrino Oscillations & Sources
+      title: Neutrino Sources and Oscillation Experiments
     - file: content/NeutrinoOscillationStats.md
       title: Statistical Methods for Neutrino Oscillation Analysis
     - file: content/NeutrinoOscillationResults.md
