@@ -32,24 +32,24 @@ The **Standard Model (SM) of Particle Physics** is the theoretical framework des
   <tbody>
     <tr style="border-bottom: 1px solid #eee;">
       <td style="text-align: center; padding: 8px;">Gen 1</td>
-      <td style="text-align: center; padding: 8px;">u (Up)</td>
-      <td style="text-align: center; padding: 8px;">d (Down)</td>
-      <td style="text-align: center; padding: 8px;">$e^{-}$ (Electron, 0.511 MeV)</td>
-      <td style="text-align: center; padding: 8px;">$\nu_{e}$ (Electron Neutrino)</td>
+      <td style="text-align: center; padding: 8px;">Up, 2.16 MeV</td>
+      <td style="text-align: center; padding: 8px;">Down, 4.67 MeV</td>
+      <td style="text-align: center; padding: 8px;">Electron, 0.511 MeV</td>
+      <td style="text-align: center; padding: 8px;">Electron Neutrino</td>
     </tr>
     <tr style="border-bottom: 1px solid #eee;">
       <td style="text-align: center; padding: 8px;">Gen 2</td>
-      <td style="text-align: center; padding: 8px;">c (Charm)</td>
-      <td style="text-align: center; padding: 8px;">s (Strange)</td>
-      <td style="text-align: center; padding: 8px;">$\mu^{-}$ (Muon, 105.7 MeV)</td>
-      <td style="text-align: center; padding: 8px;">$\nu_{\mu}$ (Muon Neutrino)</td>
+      <td style="text-align: center; padding: 8px;">Charm, 1.27 GeV</td>
+      <td style="text-align: center; padding: 8px;">Strange, 93.4 MeV</td>
+      <td style="text-align: center; padding: 8px;">Muon, 105.7 MeV</td>
+      <td style="text-align: center; padding: 8px;">Muon Neutrino</td>
     </tr>
     <tr style="border-bottom: 2px solid #ccc;">
       <td style="text-align: center; padding: 8px;">Gen 3</td>
-      <td style="text-align: center; padding: 8px;">t (Top)</td>
-      <td style="text-align: center; padding: 8px;">b (Bottom)</td>
-      <td style="text-align: center; padding: 8px;">$\tau^{-}$ (Tau, 1776.8 MeV)</td>
-      <td style="text-align: center; padding: 8px;">$\nu_{\tau}$ (Tau Neutrino)</td>
+      <td style="text-align: center; padding: 8px;">Top, 172 GeV</td>
+      <td style="text-align: center; padding: 8px;">Bottom, 4.18 GeV</td>
+      <td style="text-align: center; padding: 8px;">Tau, 1.777 GeV</td>
+      <td style="text-align: center; padding: 8px;">Tau Neutrino</td>
     </tr>
     <tr style="border-bottom: 2px solid #ccc; background-color: rgba(0,0,0,0.02);">
       <td colspan="5" style="text-align: center; padding: 8px; font-weight: bold;">Bosons (Spin 0,1)</td>
@@ -61,8 +61,8 @@ The **Standard Model (SM) of Particle Physics** is the theoretical framework des
     </tr>
     <tr>
       <td style="text-align: center; padding: 8px;"></td>
-      <td colspan="2" style="text-align: center; padding: 8px;">Gluon ($g$, Strong), Photon ($\gamma$, EM), $W^+/W^-/Z^0$ (Weak Force)</td>
-      <td colspan="2" style="text-align: center; padding: 8px;">Higgs Boson ($H$, Mass generation)</td>
+      <td colspan="2" style="text-align: center; padding: 8px;">Gluon (Strong), Photon (EM), W/Z (Weak Force)</td>
+      <td colspan="2" style="text-align: center; padding: 8px;">Higgs Boson (Mass generation)</td>
     </tr>
   </tbody>
 </table>
@@ -72,7 +72,7 @@ The **Standard Model (SM) of Particle Physics** is the theoretical framework des
 Neutrinos ($\nu_e, \nu_\mu, \nu_\tau$) are neutral leptons ($Q=0, C=0$) with spin $1/2$. Because they carry no electric or color charge:
 
 * They **do not feel the strong force** or electromagnetism.
-* They interact **strictly via the weak nuclear force** (mediated by $W^\pm$ and $Z^0$ gauge bosons) and gravity.
+* They interact **strictly via the weak nuclear force** (mediated by W+ and $Z^0$ gauge bosons) and gravity.
 * In the classical (massless) Standard Model, neutrinos were assumed to be strictly left-handed ($\nu_L$) and antineutrinos right-handed ($\bar{\nu}_R$).
 
 ## 2. Neutrino Sources and Production Mechanisms in Nature
