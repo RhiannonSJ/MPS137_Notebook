@@ -1,7 +1,5 @@
 # Fundamental Neutrino Physics and Introduction
 
-*Based on MPS 137: Frontiers of Physics – Part 1 (University of Sheffield)*
-
 ## 1. The Standard Model and Where Neutrinos Fit In
 
 The **Standard Model (SM) of Particle Physics** is the theoretical framework describing all known fundamental matter and three of the four fundamental forces: electromagnetism, the weak interaction, and the strong interaction (excluding gravity).
@@ -75,6 +73,8 @@ Neutrinos ($\nu_e, \nu_\mu, \nu_\tau$) are neutral leptons ($Q=0, C=0$) with spi
 * They interact **strictly via the weak nuclear force** (mediated by W+ and $Z^0$ gauge bosons) and gravity.
 * In the classical (massless) Standard Model, neutrinos were assumed to be strictly left-handed ($\nu_L$) and antineutrinos right-handed ($\bar{\nu}_R$).
 
+---
+
 ## 2. Neutrino Sources and Production Mechanisms in Nature
 
 Neutrinos are produced by many different elements of nature, including nuclear reactions, particle decays, and astrophysical processes across the history of the universe. 
@@ -93,6 +93,8 @@ Below is a brief overview of some of the production mechanisms and sources.
 5. **Nuclear Reactors:** Beta decay of neutron-rich fission fragments emits intense isotropic fluxes of $\bar{\nu}_e$.
 6. **Accelerators:** High-energy proton beams target stationary nuclei (e.g., beryllium or carbon) to generate focused pion/kaon decay channels.
 7. **Terrestrial & Biological:** Beta decay of ${}^{40}\text{K}$ in everyday objects (e.g., bananas emit $\sim 5,000 \text{ antineutrinos/second}$).
+
+---
 
 ## 3. Neutrino Energies, Cross-Sections, and Experimental Design Implications
 
@@ -131,6 +133,8 @@ To detect neutrinos efficiently given their tiny cross-section, experiments must
 | Hyper-Kamiokande | 260 kt (Water)        | Next-gen Water Cherenkov         |
 | JUNO             | 20 kt (Scintillator)  | Liquid Scintillator              |
 | DUNE             | 40 kt (Liquid Argon)  | Liquid Argon TPC (LArTPC)        |
+
+---
 
 ## 4. History of Discovery: The Three Active Flavours
 
@@ -174,6 +178,8 @@ Once the muon had been discovered, and the existence of an associated neutrino w
 * **Challenge:** Tau neutrinos cannot be produced in pion decay due to mass thresholds; they require decay of heavy charmed mesons ($D_s \rightarrow \tau + \nu_\tau$), demanding $800 \text{ GeV}$ protons.
 * **Discovery (2000):** The **DONUT** collaboration at Fermilab observed $\nu_\tau + N \rightarrow \tau^- + X$ using high-resolution nuclear emulsion plates to resolve the characteristic "kinked" decay track of the short-lived $\tau$ lepton ($\tau \sim 1 \text{ mm}$) [^4].
 
+---
+
 ## 5. Constraint on Active Neutrino Flavours: LEP $Z^0$ Width Limit
 
 At CERN's Large Electron-Positron Collider (LEP), the combined ALEPH, DELPHI, L3, and OPAL collaborations measured the $Z^0$ resonance curve at $\sqrt{s} \approx 91.2 \text{ GeV}$ [^3].
@@ -200,7 +206,7 @@ $$
 
 This explicitly proved that **there are exactly three light active neutrino flavours** in nature.
 
-# Summary of Confirmed Neutrino Properties (c. 2001)
+## 6. Summary of Confirmed Neutrino Properties (c. 2001)
 
 By the turn of the 21st century, marked by the DONUT collaboration's direct observation of the tau neutrino in 2000[^4] and the definitive resolution of the solar and atmospheric neutrino anomalies by Super-Kamiokande and SNO[^5], experimental particle physics had established several foundational properties of neutrinos. 
 
