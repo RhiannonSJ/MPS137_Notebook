@@ -103,7 +103,7 @@ Neutrinos cover over 18 orders of magnitude in energy. The neutrino-nucleon cros
 * **Low Energy (**$E_\nu \sim 1 \text{ MeV}$**):** Quasi-elastic / Inverse Beta Decay ($\sigma \sim 10^{-44} \text{ cm}^2$).
 * **High Energy (**$E_\nu > 10 \text{ GeV}$**):** Deep Inelastic Scattering ($\sigma \propto G_F^2 E_\nu$).
 
-![image](images/neutrino-sources.pdf)
+![image](images/neutrino-sources.png)
 
 ### The Elusive Nature of Neutrinos
 
