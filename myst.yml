@@ -21,6 +21,10 @@ site:
   options:
     logo: content/images/neutrinoOscGraphicSymmetry.png
     logo_text: MPS137 Neutrino Oscillations
+    myst:
+      enable_extensions:
+        - dollarmath
+        - html_image
   nav: 
     - title: Home
       url: /content/Welcome
