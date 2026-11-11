@@ -6,22 +6,66 @@
 
 The **Standard Model (SM) of Particle Physics** is the theoretical framework describing all known fundamental matter and three of the four fundamental forces: electromagnetism, the weak interaction, and the strong interaction (excluding gravity).
 
-|:---:|:---:|:---:|:---:|:---:|
-| <span colspan="5">Fermions (Spin 1/2)</span>|||||
-
-|:---:|:---:|:---:|:---:|:---:|
-| |<span colspan="2"> Quarks </span>|<span colspan="2"> Leptons </span>|
-| |<span colspan="2"> (Feel Weak, EM, & Strong Force) </span> | |<span colspan="2"> (Do NOT feel Strong Force) </span>| |
-| | | Charged Leptons (-1e)   Neutrinos (0 Charge) |
-| Generation 1 | Up (u) | Down (d) |  $e{-}$ (Electron, 0.511 MeV) | $\nu_{e}$ (Electron Neutrino) |
-| Generation 2 | Charm (c) | Strange (s) | $\mu^{-} (Muon, 105.7 MeV) | $\nu_{\mu} (Muon Neutrino) |
-| Generation 3 | Top (t) | Bottom (b) | $\tau^{-}$ (Tau, 1776.8 MeV) | $\nu_{\tau} (Tau Neutrino) |
-                                        
-|:---:|:---:|:---:|:---:|:---:|
-|<span colspan="5">Bosons (Spin 0,1)</span>| | | | |
-| |<span colspan="2"> Vector Bosons (Spin 1) </span> | | <span colspan="2"> Scalar Boson (Spin 0) </span> | |
-| |<span colspan="2"> Gluon (g, Strong), Photon (γ, EM), W⁺/W⁻/Z⁰ (Weak Force) </span>| |<span colspan="2"> Higgs Boson (H, Mass generation) </span> | | 
-|:---:|:---:|:---:|:---:|:---:|
+<table style="text-align: center; margin-left: auto; margin-right: auto;">
+  <thead>
+    <tr>
+      <th colspan="5" style="text-align: center;">Fermions (Spin 1/2)</th>
+    </tr>
+    <tr>
+      <th style="text-align: center;"></th>
+      <th colspan="2" style="text-align: center;">Quarks</th>
+      <th colspan="2" style="text-align: center;">Leptons</th>
+    </tr>
+    <tr>
+      <th style="text-align: center;"></th>
+      <th colspan="2" style="text-align: center;">(Feel Weak, EM, &amp; Strong Force)</th>
+      <th colspan="2" style="text-align: center;">(Do NOT feel Strong Force)</th>
+    </tr>
+    <tr>
+      <th style="text-align: center;"></th>
+      <th style="text-align: center;"></th>
+      <th style="text-align: center;"></th>
+      <th style="text-align: center;">Charged Leptons (-1e)</th>
+      <th style="text-align: center;">Neutrinos (0 Charge)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">Gen 1</td>
+      <td style="text-align: center;">u (Up) </td>
+      <td style="text-align: center;">d (Down)</td>
+      <td style="text-align: center;">$e^{-}$ (Electron, 0.511 MeV)</td>
+      <td style="text-align: center;">$\nu_{e}$ (Electron Neutrino)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">Gen 2</td>
+      <td style="text-align: center;">c (Charm)</td>
+      <td style="text-align: center;">s (Strange)</td>
+      <td style="text-align: center;">$\mu^{-}$ (Muon, 105.7 MeV)</td>
+      <td style="text-align: center;">$\nu_{\mu}$ (Muon Neutrino)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">Gen 3</td>
+      <td style="text-align: center;">t (Top)</td>
+      <td style="text-align: center;">b (Bottom)</td>
+      <td style="text-align: center;">$\tau^{-}$ (Tau, 1776.8 MeV)</td>
+      <td style="text-align: center;">$\nu_{\tau}$ (Tau Neutrino)</td>
+    </tr>
+    <tr>
+      <td colspan="5" style="text-align: center;">Bosons (Spin 0,1)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"></td>
+      <td colspan="2" style="text-align: center;">Vector Bosons (Spin 1)</td>
+      <td colspan="2" style="text-align: center;">Scalar Boson (Spin 0)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"></td>
+      <td colspan="2" style="text-align: center;">Gluon (g, Strong), Photon (&gamma;, EM), $W^{+};$W^{-}$;$Z^{0}$; (Weak Force)</td>
+      <td colspan="2" style="text-align: center;">Higgs Boson (H, Mass generation)</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Lepton Family & Neutrino Properties
 
