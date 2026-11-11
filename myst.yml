@@ -8,8 +8,10 @@ project:
       title: Neutrinos in the Standard Model 
     - file: content/NeutrinoOscillationIntroduction.md
       title: Introduction to Neutrino Oscillations
-    - file: content/NeutrinoOscillationExperiments.md
-      title: Neutrino Sources and Oscillation Experiments
+    - file: content/NeutrinoOscillationExperimentsSummary.md
+      title: Summary of Neutrino Oscillation Experiments
+    - file: content/NeutrinoOscillationExperimentsLBL.md
+      title: Long Baseline Neutrino Oscillation Experiments
     - file: content/NeutrinoOscillationStats.md
       title: Statistical Methods for Neutrino Oscillation Analysis
     - file: content/NeutrinoOscillationResults.md

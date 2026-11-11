@@ -1,14 +1,4 @@
-# Introduction to Neutrino Oscillations & Sources
-
-Neutrino oscillation is a quantum mechanical phenomenon where a neutrino created with a specific lepton flavour ($\nu_e, \nu_\mu, \nu_\tau$) is later measured to have a different flavour[cite: 1]. Experiments probe these quantum transitions using two primary, complementary measurement strategies. Appearance searches look for a specific neutrino flavour in the detector that was not present in the initial beam or source, such as detecting $\nu_e$ from an initial $\nu_\mu$ beam[cite: 1]. These offer exceptional sensitivity to small mixing angles and CP-violating phases because background levels from intrinsic flavour contamination are generally low[cite: 1]. Conversely, disappearance searches measure the survival probability of the initial neutrino flavour, such as tracking $\bar{\nu}_e \to \bar{\nu}_e$ or $\nu_\mu \to \nu_\mu$[cite: 1]. By mapping the deficit in expected flux as a function of energy and baseline distance, disappearance channels provide direct, high-precision constraints on mass-squared splittings and mixing angles[cite: 1].
-
-To probe these oscillations across vastly different baselines ($L$) and energies ($E$), experimentalists utilize diverse terrestrial and natural neutrino sources[cite: 1]. Accelerator neutrinos are produced artificially by colliding high-energy protons into heavy targets like graphite or beryllium to generate pions and kaons, which subsequently decay into directed, high-purity beams of $\nu_\mu$ or $\bar{\nu}_\mu$ in the MeV to GeV energy range[cite: 1]. Reactor neutrinos serve as intense, terrestrial sources of pure electron antineutrinos ($\bar{\nu}_e$) emitted isotropically via nuclear fission of $^{235}\text{U}$, $^{238}\text{U}$, $^{239}\text{Pu}$, and $^{241}\text{Pu}$ at low energy scales between $1\text{ MeV}$ and $8\text{ MeV}$[cite: 1].
-
-Natural sources provide complementary energy regimes and baselines[cite: 1]. Solar neutrinos are low-energy $\nu_e$ ($< 20\text{ MeV}$) produced via nuclear fusion chains in the Sun's core, providing essential insights into matter-enhanced oscillation mechanisms known as the MSW effect[cite: 1]. Atmospheric neutrinos span a broad energy range from MeV to TeV scales and are generated when high-energy cosmic rays strike Earth's upper atmosphere, producing hadronic showers that decay into $\nu_e$ and $\nu_\mu$ with baselines ranging from $10\text{ km}$ overhead to $13,000\text{ km}$ through the Earth's core[cite: 1]. Finally, astrophysical sources yield extreme fluxes: cosmogenic neutrinos are produced at ultra-high energies (PeV to EeV) when cosmic rays interact with the Cosmic Microwave Background via the GZK effect, while extragalactic neutrinos (TeV to PeV) originate from high-energy cosmic accelerators such as Active Galactic Nuclei, blazars, and Gamma-Ray Bursts beyond the Milky Way[cite: 1].
-
-The following sections summarize the current, legacy, and next-generation suite of neutrino oscillation experiments globally, categorized by primary source and baseline[cite: 1].
-
-# Long-Baseline Accelerator Experiments
+# 1. Long-Baseline Accelerator Experiments
 
 ## T2K (Tokai to Kamioka)
 
@@ -29,6 +19,24 @@ The following sections summarize the current, legacy, and next-generation suite 
 * **Fun Fact:** The beamline targets a massive underground water tank situated 295 km away. To line up the beam with pinpoint accuracy, geodetic survey techniques were refined using GPS and satellite data, pointing the beam directly **through** the Earth's crust so that it grazes the detector underground![cite: 1]
 
 [^1]: K. Abe et al. (T2K Collaboration), "Indication of Electron Neutrino Appearance from an Accelerator-produced Muon Neutrino Beam," Phys. Rev. Lett. 107, 041801 (2011).[cite: 1]
+
+## Hyper-Kamiokande (Hyper-K)
+
+* **Location:** Japan (Kamioka, Hida, Gifu; J-PARC beamline from Tokai)
+* **Baseline ($L$):** Accelerator Beam: $295\text{ km}$; Solar: $1.5 \times 10^8\text{ km}$; Atmospheric: $10\text{ km} - 13,000\text{ km}$[^10]
+* **Detector Technology:** Next-generation subterranean water Cherenkov detector containing 258 kt of ultra-pure water (190 kt fiducial mass)—over 8 times the fiducial volume of Super-Kamiokande—instrumented with ultra-high-sensitivity PMTs.
+* **Timeline:** Construction ongoing; planned operations start in late 2027 or 2028.
+* **Neutrino Source:** Upgraded high-intensity J-PARC accelerator narrow-band beam ($1.3\text{ MW}$ proton beam), along with atmospheric and solar neutrinos.
+* **Primary Flavour:** $\nu_\mu, \bar{\nu}_\mu, \nu_e, \bar{\nu}_e$
+* **Energy Range:** Solar: $>2\text{ MeV}$; Beam/Atmospheric: $100\text{ MeV} - \text{tens of GeV}$
+* **Primary Oscillation Parameters:** High-precision determination of leptonic CP violation ($\delta_{\text{CP}}$) covering over $60\%$ of parameter space at $>5\sigma$, precise mixing angle $\theta_{23}$ octant, and mass squared differences.
+* **Dominant Systematics & Backgrounds:**
+  * **Systematics:** Neutrino interaction cross-section models, beam flux uncertainties, and PMT timing/photosensor calibration.
+  * **Backgrounds:** Atmospheric $\text{NC}1\pi^0$ interactions mimicking $\nu_e$ single-ring events, and cosmic-ray spallation products.
+* **Secondary Physics Goals:** Unprecedented sensitivity to proton decay ($\text{p} \to e^+ \pi^0$ lifetime sensitivity exceeding $10^{35}$ years), galactic supernova burst detection (expecting tens of thousands of events within seconds), solar neutrino day-night asymmetry, and DSNB discovery.
+* **Fun Fact:** Hyper-K's main underground cavern is so colossal (60 metres in diameter and 71 metres tall) that it could easily fit the entire United States Capitol building inside it![cite: 1]
+
+[^10]: K. Abe et al. (Hyper-Kamiokande Proto-Collaboration), "Hyper-Kamiokande Design Report," arXiv:1805.04163 (2018).
 
 ## NOvA (NuMI Off-axis $\nu_e$ Appearance)
 
@@ -68,7 +76,7 @@ The following sections summarize the current, legacy, and next-generation suite 
 
 [^3]: B. Abi et al. (DUNE Collaboration), "Deep Underground Neutrino Experiment (DUNE), Far Detector Technical Design Report, Volume I," JINST 15, T08008 (2020).[cite: 1]
 
-# Short-Baseline Accelerator Experiments (eV-Scale Sterile Searches)
+# 2. Short-Baseline Accelerator Experiments (eV-Scale Sterile Searches)
 
 ## MicroBooNE & SBN Program (Short-Baseline Neutrino)
 
@@ -109,7 +117,7 @@ The following sections summarize the current, legacy, and next-generation suite 
 
 [^5]: A. A. Aguilar-Arevalo et al. (MiniBooNE Collaboration), "Significant Excess of Electronlike Events in the MiniBooNE Short-Baseline Neutrino Experiment," Phys. Rev. Lett. 121, 221801 (2018).[cite: 1]
 
-# Reactor Neutrino Experiments
+# 3. Reactor Neutrino Experiments
 
 ## Daya Bay
 
@@ -148,7 +156,7 @@ The following sections summarize the current, legacy, and next-generation suite 
 [^7]: F. An et al. (JUNO Collaboration), "Neutrino Physics with JUNO," J. Phys. G: Nucl. Part. Phys. 43, 030401 (2016).[cite: 1]
 [^8]: JUNO Collaboration, "First Measurement of Reactor Antineutrino Spectrum and Oscillation Parameters at JUNO," Nature (2026).[cite: 1]
 
-# Natural & Atmospheric Source Experiments
+# 4. Astrophysical and Atmospheric Source Experiments
 
 ## Super-Kamiokande (SK)
 
@@ -167,24 +175,6 @@ The following sections summarize the current, legacy, and next-generation suite 
 * **Fun Fact:** The water inside Super-K is so ultra-pure that it acts as a harsh solvent; it can slowly leach ions out of normal metals and plastics, and scientists must navigate the tank in rubber dinghies during rare maintenance periods to keep from contaminating it![cite: 1]
 
 [^9]: Y. Fukuda et al. (Super-Kamiokande Collaboration), "Evidence for Oscillation of Atmospheric Neutrinos," Phys. Rev. Lett. 81, 1562 (1998); K. Abe et al., "Solar Neutrino Measurements in Super-Kamiokande-IV," Phys. Rev. D 94, 052010 (2016).[cite: 1]
-
-## Hyper-Kamiokande (Hyper-K)
-
-* **Location:** Japan (Kamioka, Hida, Gifu; J-PARC beamline from Tokai)
-* **Baseline ($L$):** Accelerator Beam: $295\text{ km}$; Solar: $1.5 \times 10^8\text{ km}$; Atmospheric: $10\text{ km} - 13,000\text{ km}$[^10]
-* **Detector Technology:** Next-generation subterranean water Cherenkov detector containing 258 kt of ultra-pure water (190 kt fiducial mass)—over 8 times the fiducial volume of Super-Kamiokande—instrumented with ultra-high-sensitivity PMTs.
-* **Timeline:** Construction ongoing; planned operations start in late 2027 or 2028.
-* **Neutrino Source:** Upgraded high-intensity J-PARC accelerator narrow-band beam ($1.3\text{ MW}$ proton beam), along with atmospheric and solar neutrinos.
-* **Primary Flavour:** $\nu_\mu, \bar{\nu}_\mu, \nu_e, \bar{\nu}_e$
-* **Energy Range:** Solar: $>2\text{ MeV}$; Beam/Atmospheric: $100\text{ MeV} - \text{tens of GeV}$
-* **Primary Oscillation Parameters:** High-precision determination of leptonic CP violation ($\delta_{\text{CP}}$) covering over $60\%$ of parameter space at $>5\sigma$, precise mixing angle $\theta_{23}$ octant, and mass squared differences.
-* **Dominant Systematics & Backgrounds:**
-  * **Systematics:** Neutrino interaction cross-section models, beam flux uncertainties, and PMT timing/photosensor calibration.
-  * **Backgrounds:** Atmospheric $\text{NC}1\pi^0$ interactions mimicking $\nu_e$ single-ring events, and cosmic-ray spallation products.
-* **Secondary Physics Goals:** Unprecedented sensitivity to proton decay ($\text{p} \to e^+ \pi^0$ lifetime sensitivity exceeding $10^{35}$ years), galactic supernova burst detection (expecting tens of thousands of events within seconds), solar neutrino day-night asymmetry, and DSNB discovery.
-* **Fun Fact:** Hyper-K's main underground cavern is so colossal (60 metres in diameter and 71 metres tall) that it could easily fit the entire United States Capitol building inside it![cite: 1]
-
-[^10]: K. Abe et al. (Hyper-Kamiokande Proto-Collaboration), "Hyper-Kamiokande Design Report," arXiv:1805.04163 (2018).[cite: 1]
 
 ## IceCube / DeepCore
 
