@@ -6,24 +6,22 @@
 
 The **Standard Model (SM) of Particle Physics** is the theoretical framework describing all known fundamental matter and three of the four fundamental forces: electromagnetism, the weak interaction, and the strong interaction (excluding gravity).
 
-```
-========================================================================================
-                                    FERMIONS (Spin 1/2)
-----------------------------------------------------------------------------------------
-              QUARKS                                         LEPTONS
-  (Feel Weak, EM, & Strong Force)                 (Do NOT feel Strong Force)
-------------------------------------   -------------------------------------------------
- Generation 1: Up (u), Down (d)          Charged Leptons (-1e)   Neutrinos (0 Charge)
- Generation 2: Charm (c), Strange (s)    e⁻ (Electron, 0.511 MeV) ν_e (Electron Neutrino)
- Generation 3: Top (t), Bottom (b)       μ⁻ (Muon, 105.7 MeV)    ν_μ (Muon Neutrino)
-                                         τ⁻ (Tau, 1776.8 MeV)   ν_τ (Tau Neutrino)
-========================================================================================
-                                    BOSONS (Force Carriers)
-----------------------------------------------------------------------------------------
- Vector Bosons (Spin 1): Gluon (g, Strong), Photon (γ, EM), W⁺/W⁻/Z⁰ (Weak Force)
- Scalar Boson (Spin 0):  Higgs Boson (H, Mass generation)
-========================================================================================
-```
+|:---:|:---:|:---:|:---:|:---:|
+| <span colspan="5">Fermions (Spin 1/2)</span>|||||
+
+|:---:|:---:|:---:|:---:|:---:|
+| |<span colspan="2"> Quarks </span>|<span colspan="2"> Leptons </span>|
+| |<span colspan="2"> (Feel Weak, EM, & Strong Force) </span> | |<span colspan="2"> (Do NOT feel Strong Force) </span>| |
+| | | Charged Leptons (-1e)   Neutrinos (0 Charge) |
+| Generation 1 | Up (u) | Down (d) |  $e{-}$ (Electron, 0.511 MeV) | $\nu_{e}$ (Electron Neutrino) |
+| Generation 2 | Charm (c) | Strange (s) | $\mu^{-} (Muon, 105.7 MeV) | $\nu_{\mu} (Muon Neutrino) |
+| Generation 3 | Top (t) | Bottom (b) | $\tau^{-}$ (Tau, 1776.8 MeV) | $\nu_{\tau} (Tau Neutrino) |
+                                        
+|:---:|:---:|:---:|:---:|:---:|
+|<span colspan="5">Bosons (Spin 0,1)</span>| | | | |
+| |<span colspan="2"> Vector Bosons (Spin 1) </span> | | <span colspan="2"> Scalar Boson (Spin 0) </span> | |
+| |<span colspan="2"> Gluon (g, Strong), Photon (γ, EM), W⁺/W⁻/Z⁰ (Weak Force) </span>| |<span colspan="2"> Higgs Boson (H, Mass generation) </span> | | 
+|:---:|:---:|:---:|:---:|:---:|
 
 ### Lepton Family & Neutrino Properties
 
