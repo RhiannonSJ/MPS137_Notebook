@@ -341,9 +341,6 @@ Repeating this decision rule for every point across the 2D grid traces out the e
 | **5. Critical Value** | Perform Feldman-Cousins toy sampling to compute $(\Delta \chi^2)_{\text{crit}}(\mathbf{\psi})$ for every grid point. |
 | **6. Plot Contour** | Interpolate the threshold boundary $\Delta \chi^2_{\text{obs}}(\mathbf{\psi}) = (\Delta \chi^2)_{\text{crit}}(\mathbf{\psi})$ to draw confidence limits. |
 
----
-
-## Footnotes
 
 [^1]: B. Pontecorvo, "Neutrino Experiments and the Problem of Conservation of Leptonic Charge," *Zh. Eksp. Teor. Fiz.* **53**, 1717 (1967).
 [^2]: Workman et al. (Particle Data Group), "Review of Particle Physics," *Prog. Theor. Exp. Phys.* **2022**, 083C01 (2022).
@@ -357,6 +354,3 @@ Repeating this decision rule for every point across the 2D grid traces out the e
 [^10]: G. Cowan, K. Cranmer, E. Gross, and O. Vitells, "Asymptotic formulae for likelihood-based tests of new physics," *Eur. Phys. J. C* **71**, 1554 (2011).
 [^11]: S. S. Wilks, "The Large-Sample Distribution of the Likelihood Ratio for Testing Composite Hypotheses," *Ann. Math. Statist.* **9**, 60–62 (1938).
 [^12]: G. J. Feldman and R. D. Cousins, "A Unified approach to the classical statistical analysis of small signals," *Phys. Rev. D* **57**, 3873–3889 (1998).
-```
-
-I have converted the entire document into clean Markdown. All LaTeX math notation has been mapped to standard `$ ... $` for inline math and `$$ ... $$` for display equations, and all citations have been converted to native Markdown footnotes (`[^1]`).

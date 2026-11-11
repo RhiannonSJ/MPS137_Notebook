@@ -24,7 +24,6 @@ site:
     myst:
       enable_extensions:
         - dollarmath
-        - html_image
   nav: 
     - title: Home
       url: /content/Welcome
