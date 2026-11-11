@@ -12,10 +12,10 @@ project:
       title: Summary of Neutrino Oscillation Experiments
     - file: content/NeutrinoOscillationExperimentsLBL.md
       title: Long Baseline Neutrino Oscillation Experiments
-    - file: content/NeutrinoOscillationStats.md
-      title: Statistical Methods for Neutrino Oscillation Analysis
-    - file: content/NeutrinoOscillationResults.md
-      title: Neutrino Oscillation Parameter Measurements
+    #- file: content/NeutrinoOscillationStats.md
+    #  title: Statistical Methods for Neutrino Oscillation Analysis
+    #- file: content/NeutrinoOscillationResults.md
+    #  title: Neutrino Oscillation Parameter Measurements
 
 site:
   template: book-theme
