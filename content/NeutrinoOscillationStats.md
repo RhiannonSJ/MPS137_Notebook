@@ -123,17 +123,13 @@ $$f(z; k) = \frac{1}{2^{k/2}\Gamma(k/2)} z^{(k/2)-1} e^{-z/2}$$
 
 > **Analogy — A Courtroom Trial:** Think of hypothesis testing like a criminal trial where the defendant is presumed innocent until proven guilty. Here, **innocence is the null hypothesis ($H_0$)**, and the experimental data is the **evidence** presented in court. The **$p$-value** asks: "If the defendant were truly innocent, how likely would it be to see evidence this suspicious purely by coincidence?" A large $p$-value means the evidence is easily explained by bad luck or coincidence, so we retain the presumption of innocence ($H_0$). Conversely, a tiny $p$-value means such damning evidence would almost never arise by chance alone, giving us grounds to reject $H_0$ in favour of guilt ($H_1$).
 
-### 3.3 Maximum Likelihood Estimation (MLE) [Not examinable]
-Given a set of $N_{\text{obs}}$ independent observed angles $\{\theta_1, \theta_2, \dots, \theta_N\}$, we formulate a likelihood function $\mathcal{L}(\boldsymbol{\theta} | \mathbf{x})$ based on our theoretical model PDF $f(x | \boldsymbol{\theta})$[^3].
+![image](images/p-valueExample.png)
 
-For Gaussian distributed angular data:
-$$\mathcal{L}(\mu, \sigma) = \prod_{i=1}^N \frac{1}{\sqrt{2\pi\sigma^2}} \exp\left( -\frac{(\theta_i - \mu)^2}{2\sigma^2} \right)$$
+In the above example, we have a lovely large p-value (~24\%), indicating that it's **very** probable that the data can be explained by the null hypothesis (our baseline model).
 
-Taking the negative log-likelihood ($-\ln \mathcal{L}$):
-$$-\ln \mathcal{L}(\mu, \sigma) = \frac{N}{2}\ln(2\pi\sigma^2) + \sum_{i=1}^N \frac{(\theta_i - \mu)^2}{2\sigma^2}$$
+![image](images/p-valueExample-disagreement.png)
 
-Minimising $-\ln \mathcal{L}$ with respect to $\mu$ yields the sample mean:
-$$\hat{\mu} = \frac{1}{N}\sum_{i=1}^N \theta_i$$
+In this example, the p-value is extremely close to 0\%, which means it's very unlikely just due to chance that the discrepancy between our baseline model ($H_0$) and data is this substantial, therefore **something else must be going on, the null hypothesis can be rejected.**
 
 ---
 
@@ -232,15 +228,6 @@ Global analysis groups (such as **NuFIT**) perform multi-parameter $\chi^2$ mini
 
 5. **CP-Violating Phase ($\delta_{\text{CP}}$):**
    - Wide vertical bands across $[0, 360^\circ]$ indicate that current data has limited statistical power to constrain $\delta_{\text{CP}}$, though certain regions (e.g. around $\delta_{\text{CP}} \approx 270^\circ$) show mild preference.
-
----
-
-## 6. Summary of Key Concepts
-
-1. **Monte Carlo Simulations** bridge physical theory and experimental observation by generating synthetic datasets for hypothesis testing.
-2. **Observables vs. Truth Parameters:** Physical parameters (e.g., $\Delta m^2, \theta$) are rarely measured directly; they are inferred by fitting observable spectra ($E, L, \theta_{\text{obs}}$).
-3. **Chi-Squared ($\chi^2$) Minimisation** quantifies model agreement with data and provides standard errors via profile likelihood scans.
-4. **Parameter Correlation & Degeneracy:** Changing one parameter can mimic the effect of another. Joint multi-dimensional scans (2D contour plots) are required to capture correlations accurately.
 
 ---
 
