@@ -91,11 +91,11 @@ $$\sigma_{\text{obs}} = \frac{\sigma_\theta}{\sqrt{N}}$$
 
 When comparing binned data histograms against Monte Carlo predictions, we define the $\chi^2$ statistic across $K$ bins[^4]:
 
-$$\chi^2 = \sum_{i=1}^K \frac{(O_i - E_i(\boldsymbol{\theta}))^2}{\sigma_i^2}$$
+$$\chi^2 = \sum_{i=1}^K \frac{(O_i - E_i)^2}{\sigma_i^2}$$
 
 Where:
 - $O_i$: Observed event count in bin $i$.
-- $E_i(\boldsymbol{\theta})$: Expected event count predicted by the MC model for parameters $\boldsymbol{\theta}$.
+- $E_i$: Expected event count predicted by the MC model.
 - $\sigma_i$: Total standard uncertainty in bin $i$. Usually defined by the statistical and systematic uncertainties associated with the comparison, $\sigma_i^2 = \sigma_{i, syst}^2 + \sigma_{i,MC~stat}^2 + \sigma_{i, data~stat}^2$.
 
 #### Degrees of Freedom ($\text{ndof}$)
