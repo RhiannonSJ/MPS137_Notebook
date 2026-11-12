@@ -158,14 +158,14 @@ The bounds $\theta_{\text{low}}, \theta_{\text{high}}$ satisfy $\chi^2(\theta_{\
 When two model parameters (e.g., step dispersion $\sigma_\theta$ and step number $N_{\text{steps}}$) affect observables in correlated ways, 1D minimisation along a single axis fails to yield a global minimum.
 
 #### 2D Grid Scanning
-We construct a 2D parameter space over a grid $\mathbf{\Theta}_{ij} = (\theta_{1,i}, \theta_{2,j})$ and calculate $\chi^2(\theta_{1,i}, \theta_{2,j})$.
+We construct a 2D parameter space over a grid $\mathbf{\Theta}_{ij} = (x_{i}, y_{j})$ and calculate $\chi_{ij}^2(x_{i}, y_{j})$.
 
-### INSERT 2D GRID CARTOON
+![image](images/2D_Minimisation_Grid.png)
 
 #### 2D Confidence Contours ($\Delta\chi^2$ Thresholds)
 In 2 dimensions (2 degrees of freedom), lines of constant $\chi^2$ map out joint confidence regions according to the $\chi^2$ distribution with $k=2$[^6]:
 
-$$\Delta\chi^2 = \chi^2(\theta_1, \theta_2) - \chi^2_{\text{min}}$$
+$$\Delta\chi^2 = \chi_{ij}^2(x_{i}, y_{j}) - \chi^2_{\text{min}}$$
 
 | Confidence Level (CL) | Equivalent $\sigma$ (1D) | $\Delta\chi^2$ (for 2 DOF) |
 | :--- | :--- | :--- |
@@ -229,7 +229,6 @@ Global analysis groups (such as **NuFIT**) perform multi-parameter $\chi^2$ mini
 5. **CP-Violating Phase ($\delta_{\text{CP}}$):**
    - Wide vertical bands across $[0, 360^\circ]$ indicate that current data has limited statistical power to constrain $\delta_{\text{CP}}$, though certain regions (e.g. around $\delta_{\text{CP}} \approx 270^\circ$) show mild preference.
 
----
 
 [^1]: Metropolis, N., & Ulam, S. (1949). "The Monte Carlo Method". *Journal of the American Statistical Association*, 44(247), 335–341.
 [^2]: Cowan, G., Cranmer, K., Gross, E., & Vitells, O. (2011). "Asymptotic formulae for likelihood-based tests of new physics". *European Physical Journal C*, 71, 1554. (Introduces the Asimov dataset formalism).
