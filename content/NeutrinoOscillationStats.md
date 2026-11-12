@@ -199,9 +199,9 @@ where $c_{ij} = \cos\theta_{ij}$ and $s_{ij} = \sin\theta_{ij}$.
 
 ### 5.2 Interpreting Global NuFIT Fits
 
-Global analysis groups (such as **NuFIT**) perform multi-parameter $\chi^2$ minimisations over global datasets (accelerator, reactor, solar, and atmospheric experiments)[^8].
+Global analysis groups (such as **NuFIT**) perform multi-parameter $\chi^2$ minimisations over global datasets (accelerator, reactor, solar, and atmospheric experiments)[^8]. The results of a recent iteration of such an analysis are shown below[^9].
 
-![image](images/v60.fig-region-glob.jpg)[^9]
+![image](images/v60.fig-region-glob.jpg)
 
 #### Reading 2D NuFIT Projections:
 
