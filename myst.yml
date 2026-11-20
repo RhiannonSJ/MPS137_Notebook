@@ -16,6 +16,8 @@ project:
       title: Statistical Methods for Neutrino Oscillation Analysis
     #- file: content/NeutrinoOscillationResults.md
     #  title: Neutrino Oscillation Parameter Measurements
+    - file: content/JargonBusting.md
+      title: Jargon Busting
 
 site:
   template: book-theme
