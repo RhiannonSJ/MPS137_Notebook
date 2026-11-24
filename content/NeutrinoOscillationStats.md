@@ -89,6 +89,8 @@ $$\sigma_{\text{obs}} = \frac{\sigma_\theta}{\sqrt{N}}$$
 
 ### 3.1 Pearson's $\chi^2$ Test Statistic for Binned Data
 
+The **chi-square ($\chi^2$) test statistic** quantifies the total discrepancy between a set of measured experimental data and a theoretical model, normalized by the measurement uncertainties.
+
 When comparing binned data histograms against Monte Carlo predictions, we define the $\chi^2$ statistic across $K$ bins[^4]:
 
 $$\chi^2 = \sum_{i=1}^K \frac{(O_i - E_i)^2}{\sigma_i^2}$$
@@ -99,10 +101,14 @@ Where:
 - $\sigma_i$: Total standard uncertainty in bin $i$. Usually defined by the statistical and systematic uncertainties associated with the comparison, $\sigma_i^2 = \sigma_{i, syst}^2 + \sigma_{i,MC~stat}^2 + \sigma_{i, data~stat}^2$.
 
 #### Degrees of Freedom ($\text{ndof}$)
-$$\text{ndof} = K - n_{\text{fit}}$$
+The **degrees of freedom ($\nu$)** represent the number of independent data points remaining after accounting for the parameters your model estimated from that data.
+
+$$\nu = \text{ndof} = K - n_{\text{fit}}$$
 where $K$ is the number of active bins and $n_{\text{fit}}$ is the number of unconstrained fitted parameters.
 
 #### Reduced Chi-Squared ($\chi^2 / \text{ndof}$)
+Dividing $\chi^2$ by the degrees of freedom, $\nu$, gives the **reduced chi-square** ($\chi^2_\nu = \chi^2 / \nu$), which normalizes the goodness-of-fit metric so that a good fit always centers around **$1$**, regardless of how many data points you collected.
+
 - $\chi^2 / \text{ndof} \approx 1$: Good agreement between model and data.
 - $\chi^2 / \text{ndof} \ll 1$: Overestimation of uncertainties ($\sigma_i$) or over-parameterisation.
 - $\chi^2 / \text{ndof} \gg 1$: Poor fit, missing systematic uncertainties, or incorrect physical model.
