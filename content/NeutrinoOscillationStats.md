@@ -109,7 +109,7 @@ where $K$ is the number of active bins and $n_{\text{fit}}$ is the number of unc
 #### Reduced Chi-Squared ($\chi^2 / \text{ndof}$)
 Dividing $\chi^2$ by the degrees of freedom, $\nu$, gives the **reduced chi-square** ($\chi^2_\nu = \chi^2 / \nu$), which normalizes the goodness-of-fit metric so that a good fit always centers around **$1$**, regardless of how many data points you collected.
 
-- $\chi^2 / \text{ndof} \approx 1$: Good agreement between model and data.
+- $\chi^2 / \text{ndof} \sim 1$: Good agreement between model and data.
 - $\chi^2 / \text{ndof} \ll 1$: Overestimation of uncertainties ($\sigma_i$) or over-parameterisation.
 - $\chi^2 / \text{ndof} \gg 1$: Poor fit, missing systematic uncertainties, or incorrect physical model.
 
